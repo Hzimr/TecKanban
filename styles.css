@@ -9,35 +9,42 @@ body {
 
 header {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   position: fixed;
-  padding: 1rem 5rem;
   max-width: 1440px;
   width: 100%;
   font-size: 2rem;
+  z-index: 1;
+  background-color: #c7d2fe;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 5rem;
+  }
 }
 
 main {
-  position: relative;
   margin-top: 5rem;
   width: 100%;
   padding: 1rem 2rem;
   max-width: 1440px;
   display: flex;
   flex-direction: row;
+  gap: 1rem;
 }
 
 aside {
   padding: 1rem;
   border-radius: 4rem;
+  width: 7rem;
 }
 
 nav {
   display: flex;
   flex-direction: column;
-  justify-content: start;
   gap: 1.7rem;
+  position: fixed;
 }
 
 a {
