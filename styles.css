@@ -86,7 +86,7 @@ p {
 
 #listaDeCardsAltaPrioridade {
   background-color: #f1f2f6;
-  padding: 2rem 2rem;
+  padding: 1rem 0.5rem;
   border-radius: 0.5rem;
   border-top: solid 3px;
   border-color: #ef4444;
@@ -97,7 +97,7 @@ p {
 
 #listaDeCardsMediaPrioridade {
   background-color: #f1f2f6;
-  padding: 2rem 2rem;
+  padding: 1rem 0.5rem;
   border-radius: 0.5rem;
   border-top: solid 3px;
   border-color: #fda263;
@@ -108,7 +108,7 @@ p {
 
 #listaDeCardsBaixaPrioridade {
   background-color: #f1f2f6;
-  padding: 2rem 2rem;
+  padding: 1rem 0.5rem;
   border-radius: 0.5rem;
   border-top: solid 3px;
   border-color: #94a8f2;
