@@ -168,6 +168,14 @@ p {
   gap: 1rem;
 }
 
+.classListaunica {
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 #listaDeCardsMediaPrioridade {
   background-color: #f1f2f6;
   padding: 1rem 0.5rem;
