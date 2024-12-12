@@ -76,6 +76,13 @@ nav {
 
 a {
   text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  outline: none;
+}
+
+a:focus {
+  border: 2px solid #6366f1;
 }
 
 p {
