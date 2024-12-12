@@ -22,6 +22,17 @@ header {
     width: 100%;
     padding: 1rem 1rem;
   }
+
+  input {
+    border: 1px solid transparent;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    outline: none;
+  }
+
+  input:focus {
+    border: 1px solid #6366f1;
+  }
 }
 
 main {
