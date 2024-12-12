@@ -37,20 +37,29 @@ main {
 aside {
   padding: 1rem;
   border-radius: 4rem;
-  width: 7rem;
+  width: 9rem;
 }
 
 nav {
   display: flex;
   flex-direction: column;
-  gap: 1.7rem;
+  gap: 1rem;
   position: fixed;
+
+  @media (max-width: 768px) {
+    gap: 2rem;
+  }
 
   a {
     display: flex;
     align-items: center;
     gap: 0.4rem;
-    padding: 2px;
+
+    p {
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
   }
 }
 
