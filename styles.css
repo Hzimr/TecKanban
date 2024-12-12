@@ -20,14 +20,14 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 1rem 5rem;
+    padding: 1rem 1rem;
   }
 }
 
 main {
   margin-top: 5rem;
   width: 100%;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   max-width: 1440px;
   display: flex;
   flex-direction: row;
@@ -45,6 +45,13 @@ nav {
   flex-direction: column;
   gap: 1.7rem;
   position: fixed;
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 2px;
+  }
 }
 
 a {
