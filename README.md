@@ -17,7 +17,7 @@ Esse projeto é uma página web que foi feita para a atividade de mini projeto 3
 
 ### Pré requisitos
 
-Neste projeto foi utilizado apenas HTML e CSS básico, sendo assim a única necessidade é fazer o dowload do arquivo e copiar o Path e colar na url do navegador (Recomendo usar o Google Chrome).
+Neste projeto foi utilizado apenas HTML e CSS básico, sendo assim a única necessidade é fazer o download do arquivo e copiar o Path e colar na url do navegador (Recomendo usar o Google Chrome).
 
 ### Instrução de instalação
 
